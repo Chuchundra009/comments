@@ -1,0 +1,26 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40vh;
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.new-comment {
+    border:2px solid blue;
+}
+
+.red {
+  border: 3px solid red;
+}
