@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function ListComments({ nick, comment, newComment }) {
   return (
-    <div className={"list" + newComment}>
+    <div className={"list" + ' ' + newComment}>
       <h4>{nick}</h4>
       <p>{comment}</p>
     </div>
